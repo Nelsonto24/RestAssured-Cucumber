@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9a61560-90f7-49aa-a71f-10948a831a8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bMVsxJ4klMTxS4iAZoN2S1QzDB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nelson\IdeaProjects\project-rest-assured-cucumber\src\test\resources\com\company\projectrestassuredcucumber\cucumber" />
+      <recent name="C:\Users\Nelson\IdeaProjects\project-rest-assured-cucumber\src\test\resources\com" />
+      <recent name="C:\Users\Nelson\IdeaProjects\project-rest-assured-cucumber\src\test\resources" />
+      <recent name="C:\Users\Nelson\IdeaProjects\project-rest-assured-cucumber\src\test\resources\com.company.projectrestassuredcucumber.cucumber.features" />
+      <recent name="C:\Users\Nelson\IdeaProjects\project-rest-assured-cucumber\src\test\java\com\company\projectrestassuredcucumber\cucumber" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.projectrestassuredcucumber.cucumber.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nelson\IdeaProjects\project-rest-assured-cucumber\src\main\java\com\company\projectrestassuredcucumber\cucumber\entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
+    <configuration name="Feature: rest-get-issues" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com/company/projectrestassuredcucumber/cucumber/features/rest-get-issues.feature" />
+      <option name="GLUE" value="com.company.projectrestassuredcucumber.cucumber.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="project-rest-assured-cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: rest-get-issues" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-rest-assured-cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.projectrestassuredcucumber.cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.projectrestassuredcucumber.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="com.company.projectrestassuredcucumber.cucumber.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber java.Feature: rest-get-issues" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a61560-90f7-49aa-a71f-10948a831a8f" name="Default Changelist" comment="" />
+      <created>1588442159066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588442159066</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Plugins" timestamp="1589037466101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1589037466101" />
+    <state x="211" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591427364330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="211" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591427364330" />
+    <state x="409" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589036646542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589036646542" />
+    <state x="414" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590212878362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="414" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1590212878362" />
+    <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593847127677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593847127677" />
+    <state x="167" y="279" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590212856077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="167" y="279" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1590212856077" />
+    <state x="445" y="243" width="478" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1590212917020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="243" width="478" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1590212917020" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590217817833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590217817833" />
+    <state x="229" y="92" key="FileChooserDialogImpl" timestamp="1590567011653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="229" y="92" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590567011653" />
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1591428058021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591428058021" />
+    <state width="1322" height="159" key="GridCell.Tab.0.center" timestamp="1591428058021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591428058021" />
+    <state width="1322" height="159" key="GridCell.Tab.0.left" timestamp="1591428058021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591428058021" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right" timestamp="1591428058021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591428058021" />
+    <state width="1322" height="132" key="GridCell.Tab.1.bottom" timestamp="1590559003600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="132" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590559003600" />
+    <state width="1322" height="132" key="GridCell.Tab.1.center" timestamp="1590559003600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="132" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590559003600" />
+    <state width="1322" height="132" key="GridCell.Tab.1.left" timestamp="1590559003600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="132" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590559003600" />
+    <state width="1322" height="132" key="GridCell.Tab.1.right" timestamp="1590559003600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="132" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590559003600" />
+    <state x="500" y="141" key="chooseDestDirectoryDialog" timestamp="1590212901948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590212901948" />
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590125388939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590125388939" />
+    <state x="65" y="58" key="new project wizard" timestamp="1591164190693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="58" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591164190693" />
+    <state x="435" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1590471838875">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1590471838875" />
+  </component>
+</project>

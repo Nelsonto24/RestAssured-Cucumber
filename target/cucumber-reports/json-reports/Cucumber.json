@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-06T07:21:00.373Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1572199600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Create an project - JSON",
+        "description": "",
+        "id": "rest---redmine-rest-testing---create-project;create-an-project---json",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138017500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "System is ready to sent request",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCommonStepDefs.systemIsReadyToSendRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1614204900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System sends a request to create project service from redmine",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCreateProjectStepDefs.systemSendsARequestToCreateProjectServiceFromRedmine(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Proyecto creado con cucumber"
+                ]
+              },
+              {
+                "cells": [
+                  "identifier",
+                  "redmineproject"
+                ]
+              },
+              {
+                "cells": [
+                  "description",
+                  "Redmine Project for api testing"
+                ]
+              },
+              {
+                "cells": [
+                  "is_public",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46505900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The response status should be 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 30
+                }
+              ],
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCommonStepDefs.theResponseStatusShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiRest"
+          }
+        ]
+      }
+    ],
+    "name": "REST - Redmine REST testing - Create project",
+    "description": "  As a user...\n  I want to ...",
+    "id": "rest---redmine-rest-testing---create-project",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/company/projectrestassuredcucumber/cucumber/features/rest-create-project.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-06T07:21:03.857Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Get issues by list - JSON",
+        "description": "",
+        "id": "rest---redmine-rest-testing---get-issues;get-issues-by-list---json",
+        "after": [
+          {
+            "result": {
+              "duration": 500100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4500600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "System is ready to sent request",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCommonStepDefs.systemIsReadyToSendRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207026300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System sends a request to list issues service from redmine json",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestGetIssuesStepDefs.systemSendsARequestToListIssuesServiceFromRedmineJson()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The response status should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCommonStepDefs.theResponseStatusShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiRest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-06T07:21:04.089Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2500300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get issues by id - JSON",
+        "description": "",
+        "id": "rest---redmine-rest-testing---get-issues;get-issues-by-id---json",
+        "after": [
+          {
+            "result": {
+              "duration": 500100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3500400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "System is ready to sent request",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCommonStepDefs.systemIsReadyToSendRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166521100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "System sends a request to get issues by id service from redmine",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestGetIssuesStepDefs.systemSendsARequestToGetIssuesByIdServiceFromRedmine(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The response status should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestCommonStepDefs.theResponseStatusShouldBe(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 832105700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "System should responds with response data",
+            "match": {
+              "location": "com.company.projectrestassuredcucumber.cucumber.stepdefs.RestGetIssuesStepDefs.systemShouldRespondsWithResponseData(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "subject",
+                  "Mi segundo issue creado desde RestAssured con JSON"
+                ]
+              },
+              {
+                "cells": [
+                  "description",
+                  "As an admin user, I cannot create an user when..."
+                ]
+              },
+              {
+                "cells": [
+                  "start_date",
+                  "2020-04-25"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiRest"
+          }
+        ]
+      }
+    ],
+    "name": "REST - Redmine REST testing - Get issues",
+    "description": "  As a user...\n  I want to ...",
+    "id": "rest---redmine-rest-testing---get-issues",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/company/projectrestassuredcucumber/cucumber/features/rest-get-issues.feature",
+    "tags": []
+  }
+]

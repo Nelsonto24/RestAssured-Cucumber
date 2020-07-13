@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="11.599">
+    <testcase classname="REST - Redmine REST testing - Create project" name="Create an project - JSON" time="7.256">
+        <system-out>
+            <![CDATA[Given System is ready to sent request.......................................passed
+When System sends a request to create project service from redmine..........passed
+Then The response status should be 201......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="REST - Redmine REST testing - Get issues" name="Get issues by list - JSON" time="0.449">
+        <system-out>
+            <![CDATA[Given System is ready to sent request.......................................passed
+When System sends a request to list issues service from redmine json........passed
+Then The response status should be 200......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="REST - Redmine REST testing - Get issues" name="Get issues by id - JSON" time="2.269">
+        <system-out>
+            <![CDATA[Given System is ready to sent request.......................................passed
+When System sends a request to get issues by id service from redmine........passed
+Then The response status should be 200......................................passed
+And System should responds with response data...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
